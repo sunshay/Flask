@@ -1,7 +1,7 @@
 from crypt import methods
 from distutils.log import debug
 from pickle import GET
-from flask import Flask, render_template,request
+from flask import Flask, render_template,requests
 from requests import post
 
 app = Flask(__name__)#instanciate class
